@@ -32,7 +32,7 @@ urlpatterns = [
     path('completed/',completados,name='completed'),
 
     path('pendiente/<int:pendiente_pk>',verpendiente,name='verpendiente'),
-    path('pendiente/<int:pendiente_pk>/completados',completado,name='completado'),
+    path('pendiente/<int:pendiente_pk>/complete',completado,name='completado'),
     path('pendiente/<int:pendiente_pk>/borrado',borrar,name='borrado'),
 
 
